@@ -1,0 +1,332 @@
+table.no-style {
+    border: none;
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+table.full {
+    width: 100%;
+	 
+	 border: 1px solid #aaa;
+}
+table.setengah {
+    width: 50%;
+	 
+	 border: 1px solid #aaa;
+}
+table.setengah2 {
+    width: 70%;
+	 
+	 border: 1px solid #aaa;
+}
+table.full1 {
+    width: 100%;
+	 
+}
+
+table.full2 {
+    width: 70%;
+	 
+}
+
+table.no-style td, table.no-style th {
+    background: none;
+    border: none;
+}
+
+table.datatable {
+ 
+    border-collapse: separate;
+    border-spacing: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+
+table.datatable thead th {
+    background: #f7f7f7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#e1e1e1));
+    background: -moz-linear-gradient(top,  #f7f7f7,  #e1e1e1);
+    -pie-background: linear-gradient(top,  #f7f7f7,  #e1e1e1);
+    border-bottom: 1px solid #aaa;
+    color: #333;
+    text-shadow: 0 1px 0 #fff;
+    position: relative;
+}
+
+table.datatable thead th:not(:last-child) {
+    border-right: 1px solid #aaa;
+}
+
+table.datatable thead th:not(:first-child) {
+    border-left: 1px solid #fff;
+}
+
+table.datatable thead th:first-child {
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -khtml-border-top-left-radius: 5px;
+    border-radius: 5px 0 0 0;
+}
+
+table.datatable thead th:last-child {
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -khtml-border-top-right-radius: 5px;
+    border-radius: 0 5px 0 0;
+}
+
+table.datatable tbody tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -khtml-border-bottom-left-radius: 5px;
+    border-radius: 0 0 0 5px;
+}
+
+table.datatable tbody tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -khtml-border-bottom-right-radius: 5px;
+    border-radius: 0 0 5px 0;
+}
+
+table.datatable.no-border thead th:first-child, table.datatable.no-border thead th:last-child, table.datatable.no-border tbody tr:last-child td:first-child, table.datatable.no-border tbody tr:last-child td:last-child {
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -khtml-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+table.datatable th, table.datatable td {
+    padding: 5px;
+    vertical-align: middle;
+}
+
+table.datatable tbody tr:nth-child(odd) td {
+   /* background: #eeeeee;*/
+	
+}
+
+table.datatable tbody td:not(:last-child) {
+    border-right: 1px solid #ccc;
+	word-wrap:break-word;
+}
+
+table.datatable.sortable {
+    table-layout: fixed;
+}
+
+table.datatable.sortable td.column-selected {
+    background: #ffffc0 !important;
+}
+
+table.datatable.sortable th a {
+    display: block;
+}
+table.datatable.sortable th a.sort-asc {
+    background: transparent url(../images/arrow-up.png) no-repeat right;
+}
+table.datatable.sortable th a.sort-desc {
+    background: transparent url(../images/arrow-down.png) no-repeat right;
+}
+
+table.datatable.selectable tbody tr.hover td, table.datatable.selectable tbody tr.selected td {
+    background: #f6f6f6;
+}
+
+table.datatable tfoot tr td {
+    border-top: 1px solid #e1e1e1;
+    background: #f1f1f1;
+}
+
+table.datatable  TBODY TR:hover TD {
+	BACKGROUND: #fdf5ce; COLOR: #c77405;
+}
+
+
+#fram{
+height:400px;
+width:400px;
+overflow:auto;
+}
+
+.rapor {
+	BORDER-BOTTOM: #000000 1px solid; 
+	TEXT-ALIGN: left; 
+	BORDER-LEFT: #000000 1px solid; 
+	BORDER-COLLAPSE: collapse; 
+	FONT-FAMILY: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; 
+	FONT-SIZE: 10px; BORDER-TOP: #000000 1px solid; 
+	BORDER-RIGHT: #000000 1px solid
+}
+.rapor TH {
+	BORDER-BOTTOM: #000000 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #000000 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: #000000; FONT-SIZE: 11px; BORDER-TOP: #000000 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000000 1px solid; PADDING-TOP: 2px
+}
+.rapor TD {
+	BORDER-BOTTOM: #000000 1px solid; 
+	PADDING-BOTTOM: 2px; 
+	PADDING-LEFT: 5px; 
+	PADDING-RIGHT: 5px; 
+	COLOR: #669; 
+	BORDER-RIGHT: #000000 1px solid; 
+	PADDING-TOP: 2px;
+}
+.rapor TBODY TR:hover TD {
+	BACKGROUND: #eeeeee; COLOR: #339
+}
+
+.rapor1 {
+	BORDER-BOTTOM: #000000 1px solid; 
+	TEXT-ALIGN: left; 
+	BORDER-LEFT: #000000 1px solid; 
+	BORDER-COLLAPSE: collapse; 
+	FONT-FAMILY: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; 
+	FONT-SIZE: 12px; BORDER-TOP: #000000 2px solid; 
+	BORDER-RIGHT: #000000 1px solid
+}
+.rapor1 TH {
+	BORDER-BOTTOM: #000000 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #000000 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: #000000; FONT-SIZE: 12px; BORDER-TOP: #000000 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000000 1px solid; PADDING-TOP: 2px
+}
+
+.rapor1 TD {
+	BORDER-BOTTOM: #000000 1px solid; 
+	PADDING-BOTTOM: 2px; 
+	PADDING-LEFT: 5px; 
+	PADDING-RIGHT: 5px; 
+	COLOR: #000; 
+	BORDER-RIGHT: #000000 1px solid; 
+	PADDING-TOP: 2px;
+}
+.rapor1 TBODY TR:hover TD {
+	BACKGROUND: #eeeeee; COLOR: #339
+}
+
+.rapor1 {
+	BORDER-BOTTOM: #000000 1px solid; 
+	TEXT-ALIGN: left; 
+	BORDER-LEFT: #000000 1px solid; 
+	BORDER-COLLAPSE: collapse; 
+	FONT-FAMILY: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; 
+	FONT-SIZE: 12px; BORDER-TOP: #000000 2px solid; 
+	BORDER-RIGHT: #000000 1px solid
+}
+
+.rapor2 {
+	BORDER-BOTTOM: #000000 1px solid; 
+	TEXT-ALIGN: left; 
+	BORDER-LEFT: #000000 1px solid; 
+	BORDER-COLLAPSE: collapse; 
+	FONT-FAMILY: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; 
+	FONT-SIZE: 12px; BORDER-TOP: #000000 2px solid; 
+	BORDER-RIGHT: #000000 1px solid
+}
+.rapor2 TH {
+	BORDER-BOTTOM: #000000 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #000000 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: #000000; FONT-SIZE: 12px; BORDER-TOP: #000000 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000000 1px solid; PADDING-TOP: 2px
+}
+
+.rapor2 TD {
+	BORDER-BOTTOM: #000000 1px solid; 
+	PADDING-BOTTOM: 2px; 
+	PADDING-LEFT: 5px; 
+	PADDING-RIGHT: 5px; 
+	COLOR: #000; 
+	BORDER-RIGHT: #000000 1px solid; 
+	PADDING-TOP: 2px;
+}
+.rapor2 TBODY TR:hover TD {
+	BACKGROUND: #eeeeee; COLOR: #339
+}
+
+.rapor2 {
+	BORDER-BOTTOM: #000000 1px solid; 
+	TEXT-ALIGN: left; 
+	BORDER-LEFT: #000000 1px solid; 
+	BORDER-COLLAPSE: collapse; 
+	FONT-FAMILY: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; 
+	FONT-SIZE: 12px; BORDER-TOP: #000000 2px solid; 
+	BORDER-RIGHT: #000000 1px solid
+}
+
+.btnfrm {
+	COLOR: #101010; 
+	FONT-SIZE: 12px;
+	font-family:"Courier New", Courier, monospace;
+	padding-left:2px;
+	padding-right:2px;
+	}
+	
+	
+.headt {
+	BORDER-BOTTOM: #000000 1px solid; 
+	TEXT-ALIGN: left; 
+	BORDER-LEFT: #000000 1px solid; 
+	BORDER-COLLAPSE: collapse; 
+	FONT-FAMILY: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; 
+	FONT-SIZE: 12px; 
+	BORDER-TOP: #000000 1px solid; 
+	BORDER-RIGHT: #000000 1px solid
+}
+.headt TH {
+	BORDER-BOTTOM: #000000 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #000000 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: #000000; FONT-SIZE: 11px; BORDER-TOP: #000000 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #000000 1px solid; PADDING-TOP: 2px
+}
+.headt TD {
+	BORDER-BOTTOM: #000000 2px dotted;
+	vertical-align:top;
+	PADDING-BOTTOM: 2px; 
+	PADDING-LEFT: 5px; 
+	PADDING-RIGHT: 5px;
+	 COLOR: #000000; 
+	 BORDER-RIGHT: #000000 1px solid; 
+	 PADDING-TOP: 2px
+}
+
+table.subdikti {
+    border: 0px solid #aaa;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+table.subdikti tbody tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -khtml-border-bottom-left-radius: 5px;
+    border-radius: 0 0 0 5px;
+}
+
+table.subdikti tbody tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -khtml-border-bottom-right-radius: 5px;
+    border-radius: 0 0 5px 0;
+}
+
+table.subdikti.no-border thead th:first-child, 
+table.subdikti.no-border thead th:last-child, 
+table.subdikti.no-border tbody tr:last-child td:first-child, 
+table.subdikti.no-border tbody tr:last-child td:last-child {
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -khtml-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+table.subdikti th, table.subdikti td {
+    padding: 5px;
+    vertical-align: middle;
+}
+
+table.subdikti tbody tr:nth-child(odd) td {
+   /* background: #eeeeee;*/
+	background:#eeeeee;
+}
+
+table.subdikti tbody td:not(:last-child) {
+    border-right: 0px solid #ccc;
+	word-wrap:break-word;
+}
+
+table.subdikti  TBODY TR:hover TD {
+	BACKGROUND: #fdf5ce; COLOR: #c77405;
+}

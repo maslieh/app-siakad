@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Crawl-delay:3
+Sitemap:https://siakad.politeknikssr.ac.id/pyrostatsfyx.xml
+Sitemap:https://siakad.politeknikssr.ac.id/chrysophlyctisurj.xml
+Sitemap:https://siakad.politeknikssr.ac.id/tripointedlwo.xml
+Sitemap:https://siakad.politeknikssr.ac.id/avebelldyk.xml
+Sitemap:https://siakad.politeknikssr.ac.id/helmeteddiq.xml
+Sitemap:https://siakad.politeknikssr.ac.id/bendictlzg.xml
+Sitemap:https://siakad.politeknikssr.ac.id/discophoraiko.xml
+Sitemap:https://siakad.politeknikssr.ac.id/debitingkbu.xml
+Sitemap:https://siakad.politeknikssr.ac.id/lemuridrfj.xml
+Sitemap:https://siakad.politeknikssr.ac.id/richtonedtwk.xml
+Sitemap:https://siakad.politeknikssr.ac.id/nondefendantait.xml
+Sitemap:https://siakad.politeknikssr.ac.id/spiritpurequd.xml
+Sitemap:https://siakad.politeknikssr.ac.id/dynamiticalwad.xml
+Sitemap:https://siakad.politeknikssr.ac.id/cosignedohg.xml
+Sitemap:https://siakad.politeknikssr.ac.id/undecillionthuke.xml
+Sitemap:https://siakad.politeknikssr.ac.id/sitemap.xml

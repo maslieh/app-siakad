@@ -1,0 +1,30 @@
+.jqifade {
+	POSITION: absolute; BACKGROUND-COLOR: #ffffff
+}
+DIV.jqi {
+	BORDER-BOTTOM: #eeeeee 1px solid; POSITION: absolute; TEXT-ALIGN: left; BORDER-LEFT: #eeeeee 1px solid; PADDING-BOTTOM: 7px; BACKGROUND-COLOR: #ffffff; MARGIN-TOP: 100px; PADDING-LEFT: 7px; WIDTH:auto; PADDING-RIGHT: 7px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; FONT-SIZE: 11px; BORDER-TOP: #eeeeee 1px solid; BORDER-RIGHT: #eeeeee 1px solid; PADDING-TOP: 7px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px
+}
+DIV.jqi .jqicontainer {
+	FONT-WEIGHT: bold
+}
+DIV.jqi .jqiclose {
+	POSITION: absolute; WIDTH: 18px; DISPLAY: none; COLOR: #bbbbbb; TOP: 4px; CURSOR: default; RIGHT: -2px; FONT-WEIGHT: bold
+}
+DIV.jqi .jqimessage {
+	PADDING-BOTTOM: 10px; LINE-HEIGHT: 20px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: #444444; PADDING-TOP: 10px
+}
+DIV.jqi .jqibuttons {
+	BORDER-BOTTOM: #eeeeee 1px solid; TEXT-ALIGN: right; BORDER-LEFT: #eeeeee 1px solid; PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #f4f4f4; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #eeeeee 1px solid; BORDER-RIGHT: #eeeeee 1px solid; PADDING-TOP: 5px
+}
+DIV.jqi BUTTON {
+	BORDER-BOTTOM: #f4f4f4 1px solid; BORDER-LEFT: #f4f4f4 1px solid; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #2f6073; MARGIN: 0px 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; COLOR: #ffffff; FONT-SIZE: 12px; BORDER-TOP: #f4f4f4 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #f4f4f4 1px solid; PADDING-TOP: 3px
+}
+DIV.jqi BUTTON:hover {
+	BACKGROUND-COLOR: #728a8c
+}
+DIV.jqi BUTTON.jqidefaultbutton {
+	BACKGROUND-COLOR: #bf5e26
+}
+.jqiwarning .jqi .jqibuttons {
+	BACKGROUND-COLOR: #bf5e26
+}

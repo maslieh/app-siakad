@@ -1,0 +1,209 @@
+/*******************************************/ 
+ 
+/********************************************
+   HTML ELEMENTS
+********************************************/ 
+
+/* top elements */
+* { padding: 0; margin: 0; }
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	text-align: center;
+	background-color:#FFFFFF;
+}
+
+/* links */
+a { 
+	color: #0000cc;
+	background-color: inherit;
+	text-decoration: none;
+}
+a:hover {
+	color:#FF0000;
+	background-color: inherit;
+}
+
+/* headers */
+
+h1 { 
+color:#003300;
+font-size:24px; 
+} 
+
+h2 { font-size: 1.2em; text-transform:uppercase;}
+h3 { font-size: 1.2em; }
+h4 { font-size: 1.2em; color: #ffffff; } 
+
+
+ul, ol {
+	margin: 10px 30px;
+	padding: 0 15px;
+	color: #003300;
+}
+ul span, ol span {
+	color: #003300; 
+}
+
+/* images */
+img {
+	border: 0px solid #CCC;
+}
+img.no-border {
+	border: none;
+}
+img.float-right {
+  margin: 5px 0px 5px 5px;   /*top right bottom left*/ 
+}
+img.float-left {
+  margin: 5px 5px 5px 0px;   /*top right bottom left*/ 
+}
+.isirapor {
+	BORDER-BOTTOM: #666666  0px solid; 
+	TEXT-ALIGN: left; 
+	BORDER-LEFT: #666666  0px solid; 
+	BORDER-COLLAPSE: collapse; 
+	FONT-FAMILY: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; 
+	FONT-SIZE: 10px; 
+	BORDER-TOP: #666666  0px solid; 
+	BORDER-RIGHT: #666666  0px solid
+}
+.isirapor TH {
+	BORDER-BOTTOM: #000000 1px solid; 
+	TEXT-ALIGN: left; 
+	BORDER-LEFT: #000000 0px solid; 
+	PADDING-BOTTOM: 2px; 
+	PADDING-LEFT: 10px; 
+	PADDING-RIGHT: 10px; 
+	COLOR: #000000; 
+	FONT-SIZE: 10px; 
+	BORDER-TOP: #000000 1px solid; 
+	FONT-WEIGHT: bold; 
+	BORDER-RIGHT: #000000 0px solid; 
+	PADDING-TOP: 2px; color:#000000; 
+	background-color:#CCCCCC;
+}
+.isirapor TD {
+	BORDER-BOTTOM: #666666  0px solid; 
+	PADDING-BOTTOM: 2px; 
+	PADDING-LEFT: 5px; 
+	PADDING-RIGHT: 5px; 
+	COLOR: #000000; 
+	BORDER-RIGHT: #666666  0px solid; 
+	PADDING-TOP: 2px;
+}
+
+.kartu {
+	BORDER-BOTTOM: #666666  0px solid; 
+	TEXT-ALIGN: left; 
+	BORDER-LEFT: #666666  0px solid; 
+	FONT-FAMILY: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; 
+	FONT-SIZE: 9px; 
+	BORDER-TOP: #666666  0px solid; 
+	BORDER-RIGHT: #666666  0px solid
+}
+.kartu TH {
+	BORDER: #000000 0px solid; 
+	TEXT-ALIGN: left; 
+	PADDING-BOTTOM: 0px; 
+	PADDING-LEFT: 5px; 
+	PADDING-RIGHT: 5px; 
+	COLOR: #000000; 
+	FONT-SIZE: 10px; 
+	FONT-WEIGHT: bold; 
+	PADDING-TOP: 0px; 
+	color:#000000; 
+	background-color:#CCC;
+}
+.kartu TD {
+	BORDER-BOTTOM: #666666  0px solid; 
+	PADDING-BOTTOM: 1px; 
+	PADDING-LEFT: 5px; 
+	PADDING-RIGHT: 5px; 
+	COLOR: #000000; 
+	BORDER-RIGHT: #666666  0px solid; 
+	PADDING-TOP: 1px;
+}
+
+.isiket {
+	BORDER-BOTTOM: #666666  0.5px solid; 
+	BORDER-TOP: #666666  0.5px solid; 
+	BORDER-RIGHT: #666666  0.5px solid;
+	BORDER-LEFT: #666666  0.5px solid; 
+	TEXT-ALIGN: left; 
+	BORDER-COLLAPSE: collapse; 
+	FONT-FAMILY: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; 
+	FONT-SIZE: 7px; 
+	
+}
+.isiket TH {
+	BORDER-BOTTOM: #000000 0.5px solid; 
+	BORDER-RIGHT: #000000 1px solid; 
+	BORDER-TOP: #000000 1px solid; 
+	BORDER-LEFT: #000000 1px solid; 
+	TEXT-ALIGN: left; 
+	PADDING-BOTTOM: 2px; 
+	PADDING-LEFT: 10px; 
+	PADDING-RIGHT: 10px; 
+	COLOR: #000000; 
+	FONT-SIZE: 10px; 
+	
+	FONT-WEIGHT: bold; 
+	PADDING-TOP: 2px; color:#000000; 
+	background-color:#CCCCCC;
+}
+.isiket TD {
+	BORDER-BOTTOM: #666666  0.5px solid; 
+	BORDER-RIGHT: #666666  0.5px solid; 
+	PADDING-BOTTOM: 1px; 
+	PADDING-LEFT: 5px; 
+	PADDING-RIGHT: 5px; 
+	COLOR: #000000; 
+	PADDING-TOP: 1px;
+}
+
+.page-break  { display:block; page-break-before:always; }
+
+
+
+
+#tabel {
+padding:0px;
+font-size:9px;
+}
+
+#tabel tr.head {
+height:20px;
+background:#;
+}
+#tabel tr.head td{
+	border-right: 1px solid #d1d1d1;
+	border-bottom: 1px solid #d1d1d1;
+	border-top: 1px solid #d1d1d1;
+	background: #;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:8px;
+	padding-right:8px;
+	color: #4f6b72;
+}
+#tabel tr.head td.depan, tr.isi td.depan{
+border-left: 1px solid #d1d1d1;
+}
+#tabel tr.isi td{
+border-right: 1px solid #d1d1d1;
+	border-bottom: 1px solid #d1d1d1;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:8px;
+	padding-right:8px;
+	color: #4f6b72;
+}
+.table_border_bottom{
+border-bottom: 1px solid #d1d1d1;	
+}
+
+
